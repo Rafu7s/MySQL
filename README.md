@@ -1,2 +1,3 @@
-# MySQL
-SQL
+# Projekt MySQL
+# SQL
+W przygotowaniu
