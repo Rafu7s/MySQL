@@ -1,5 +1,5 @@
-# Projekt MySQL
+# MySQL Project
 <br />
 SQL
 <br />
-W przygotowaniu
+In progress..
