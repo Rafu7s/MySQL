@@ -1,0 +1,37 @@
+CREATE TABLE bookings
+   ([ID] int, [profile_id] int, [supplier] varchar(10), [created_at] date,
+    [booked] bit,[paid] bit,[cancelled] bit,
+   [finished] bit,[departure] varchar(3),[destination] varchar(3),
+   [total_price] decimal(10,2), [airline_name] varchar(30));
+
+INSERT INTO bookings
+   ([ID], [profile_id], [supplier], [created_at],[booked],[paid],[cancelled],[finished],
+   [departure],[destination],[total_price], [airline_name])
+
+VALUES
+(1,1,'Amanda', '2012-10-11 18:11:20.57',1,1,1,1,'AMS','WWA',1233.33,'Ryanair'),
+(2,2,'Janek', '2014-05-16 22:11:20.57',1,0,1,1,'AMS','NYC',13.33,'Ryanair'),
+(3,2,'Amanda', '2015-03-19 08:11:20.57',0,1,0,1,'NYC','WWA',2423.33,'Ryanair'),
+(4,3,'Amanda', '2016-12-20 18:11:20.57',1,1,1,1,'AMS','WWA',1233.33,'LOT'),
+(5,1,'Janek', '2016-12-05 11:11:20.57',1,1,1,1,'AMS','SYD',943.33,'LOT'),
+(6,1,'Amanda', '2016-01-22 08:11:20.57',0,1,1,1,'AMS','DPS',783.33,'LOT'),
+(7,2,'Amanda', '2015-01-11 08:11:20.57',1,1,1,1,'MIA','WWA',663.33,'Ryanair'),
+(8,4,'Amanda', '2015-03-15 08:16:20.57',1,1,1,1,'AMS','WWA',223.33,'Ryanair'),
+(9,4,'Janek', '2015-06-02 08:11:30.57',1,0,1,1,'AMS','BKK',123.33,'LOT'),
+(10,5,'Amanda', '2016-10-01 08:11:20.57',1,1,1,0,'AMS','GDN',1443.33,'Ryanair'),
+(11,5,'Amaanda', '2016-12-01 09:11:20.57',1,1,0,1,'WAW','WWA',123.31,'Ryanair'),
+(12,2,'Janek', '2015-01-18 08:18:20.57',1,0,0,0,'AMS','SYD',1230.38,'LOT'),
+(13,5,'Amanda', '2018-06-17 08:11:30.57',1,0,0,1,'AMS','PER',12.33,'LOT');
+
+CREATE TABLE profiles
+   ([ID] int, [email] varchar(50), [first_name] varchar(30), [last_name] varchar(30),
+    [source] varchar(20));
+
+INSERT INTO profiles
+   ([ID], [email], [first_name], [last_name],[source])
+VALUES
+(1,'Mariusz.kowalski@egmail.com','Jan','Kowalski','mytix'),
+(2,'Remigiusz.kowalski@gmail.com','Radek','Kowalski','promo'),
+(3,'amanda3@wp.pl','Amanda','Tarnowska',NULL),
+(4,'krzakfirma@gmail.com','Firma','IT','newsletter'),
+(5,'Nosacz@wp.pl','Mariusz','Nosacz','mytix');
