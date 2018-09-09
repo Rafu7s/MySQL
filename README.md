@@ -3,7 +3,7 @@
 SQL
 <br />
 In progress..
-<br>
+<br><br>
 Big thanks to my SQL trainer Michal.
 
 <br><br><br><br><br><br>
