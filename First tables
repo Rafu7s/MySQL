@@ -1,3 +1,5 @@
+<!DOCTYPE MySQL>
+
 CREATE TABLE bookings
    ([ID] int, [profile_id] int, [supplier] varchar(10), [created_at] date,
     [booked] bit,[paid] bit,[cancelled] bit,
