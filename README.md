@@ -1,8 +1,8 @@
 # MySQL Project
 <br><br><br><br>
-SQL
+
 <br>
-I created database in MySQL.
+I created database in MySQL to learning SQL queries. 
 
 <br><br>
 
