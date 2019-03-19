@@ -1,5 +1,5 @@
 # MySQL Project
-<br><br><br><br>
+<br><br><br>
 
 <br>
 I created database in MySQL to learning SQL queries. 
