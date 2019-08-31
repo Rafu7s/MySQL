@@ -5,7 +5,7 @@ I created database in MySQL to learning SQL queries.
 <br>
 Used XAMPP/local + Wordpress/web 
 
-<br><br>
+<br><br><br>
 
 ![alt text](/img/database.jpg "pic1")
 ![alt text](/img/database2.jpg "pic2")
