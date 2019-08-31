@@ -3,6 +3,8 @@
 
 
 I created database in MySQL to learning SQL queries. 
+<br>
+Used XAMPP/local + Wordpress/web 
 
 <br><br>
 
