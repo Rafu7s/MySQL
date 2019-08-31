@@ -12,5 +12,5 @@ Used XAMPP/local + Wordpress/web
 key: encja, atrybut, krotka, relacja, klucz główny, klucz obcy (1-1, 1-n, n-m)
 
 
-![alt text](/img/database.jpg)
-![alt text](/img/database2.jpg)
+![alt text](/img/database.jpg "pic1")
+![alt text](/img/database2.jpg "pic2")
