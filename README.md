@@ -3,7 +3,7 @@
 
 I created database in MySQL to learning SQL queries. 
 <br>
-Used XAMPP/local + Wordpress/web 
+Used XAMPP/local + Wordpress/web + SQL Fiddle/MS Server 2017
 
 <br><br><br>
 
