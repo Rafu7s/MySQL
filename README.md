@@ -13,3 +13,4 @@ key: encja, atrybut, krotka, relacja, klucz główny, klucz obcy (1-1, 1-n, n-m)
 
 
 ![alt text](/img/database.jpg)
+![alt text](/img/database2.jpg)
