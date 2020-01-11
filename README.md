@@ -13,5 +13,5 @@ Used XAMPP/local + PhpMyAdmin/Wordpress Web + SQL Fiddle/MS Server 2017
 <br><br><br><br>
 key: encja, atrybut, krotka, relacja, klucz główny, klucz obcy (1-1, 1-n, n-m)
 
-![alt text](/img/joker.jpg "pic2")
+![alt text](/img/Joker.jpg "pic3")
 
